@@ -1,6 +1,6 @@
 # JavaScript for React Developers by Mosh Hamedani
 
-- [ ] let / const
+- [x] let / const
 - [ ] Objects
 - [ ] this
 - [ ] Arrow Function
