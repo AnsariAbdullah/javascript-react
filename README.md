@@ -1,7 +1,7 @@
 # JavaScript for React Developers by Mosh Hamedani
 
 - [x] let / const
-- [ ] Objects
+- [x] Objects
 - [ ] this
 - [ ] Arrow Function
 - [ ] Destructuring
