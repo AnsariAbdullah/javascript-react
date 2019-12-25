@@ -39,3 +39,17 @@ talk();
 /*Binding this keyword*/
 const eat = object.eatFunction.bind(object);
 eat();
+
+
+/*Arrow function*/
+// old JavaScript function
+const square1 = function(number){
+	return number * number
+}
+
+console.log(square1(5));
+
+// ES6 arrow function
+const square2 = number => number * number;
+
+console.log(square2(6));

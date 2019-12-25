@@ -3,7 +3,7 @@
 - [x] let / const
 - [x] Objects
 - [x] this
-- [ ] Arrow Function
+- [x] Arrow Function
 - [ ] Destructuring
 - [ ] Spread
 - [ ] Classes
