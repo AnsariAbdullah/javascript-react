@@ -67,3 +67,14 @@ const jobs = [
 
 const activeJobs = jobs.filter(key => jobs.isActive);
 console.log(activeJobs);
+
+
+/*Arrow function & this keyword*/
+
+const arrowFunctionBinding = {
+	bindingFunction(){
+		setTimeout(() => {
+			console.log('this arrow function binding', this);
+		}, 1000)
+	}
+}
