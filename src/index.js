@@ -53,3 +53,17 @@ console.log(square1(5));
 const square2 = number => number * number;
 
 console.log(square2(6));
+
+
+// using arrow function example
+
+const jobs = [
+	{id: 1, isActive: true},
+	{id: 2, isActive: true},
+	{id: 3, isActive: false}
+];
+
+// const activeJobs = jobs.filter(function(key) {return jobs.isActive})								-old JavaScript function;
+
+const activeJobs = jobs.filter(key => jobs.isActive);
+console.log(activeJobs);
