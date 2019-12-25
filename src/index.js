@@ -16,7 +16,10 @@ const object = {
 	walkFunction: function(){},			//adding a function(method) in object before ES6
 	talkFunction(){
 		console.log(this)
-	}																//adding a method in object after ES6 - no need of function keyword and colon
+	},															//adding a method in object after ES6 - no need of function keyword and colon
+	eatFunction(){
+		console.log(this)
+	}
 }
 
 // accessing data in Object
@@ -31,3 +34,8 @@ object.talkFunction();						//caling a function that consoles this
 const talk = object.talkFunction;
 console.log(talk);
 talk();
+
+
+/*Binding this keyword*/
+const eat = object.eatFunction.bind(object);
+eat();
