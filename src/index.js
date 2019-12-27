@@ -71,10 +71,12 @@ console.log(activeJobs);
 
 /*Arrow function & this keyword*/
 
-const arrowFunctionBinding = {
+const arrowFunctionBinding ={
 	bindingFunction(){
 		setTimeout(() => {
 			console.log('this arrow function binding', this);
 		}, 1000)
 	}
 }
+
+arrowFunctionBinding.bindingFunction();
