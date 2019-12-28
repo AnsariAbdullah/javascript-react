@@ -4,7 +4,7 @@
 - [x] Objects
 - [x] this
 - [x] Arrow Function
-- [ ] Destructuring
+- [x] Destructuring
 - [ ] Spread
 - [ ] Classes
 - [ ] Modules

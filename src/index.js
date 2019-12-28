@@ -85,7 +85,24 @@ arrowFunctionBinding.bindingFunction();
 /*Mapping through array*/
 
 const colors = ['red', 'blue', 'green'];
-
 const items = colors.map(key => `<li>${colors}</li>`);
-
 console.log(items);
+
+
+/*Object Destucturing*/
+const address = {
+	street: '',
+	city: '',
+	country: ''
+}
+
+// old way of extracting steert property from address object and storing it in const
+/*const street = address.street;
+const city = address.city;
+const country = address.country;*/
+
+//extracting steert property from address object and storing it in const using object destructuring
+const {street, city, country} = address;
+
+// using alais instead of 'street'
+const {street: st} = address;
