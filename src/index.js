@@ -108,3 +108,25 @@ const {city, country} = address;
 const {street: st} = address;
 
 console.log(st, city, country);
+
+/*Spread Operator*/
+
+//ARRAY
+//old way of concatinating array
+const firstArray = [1, 2, 3];
+const secondArray = [4, 5, 6];
+
+const combineArray = firstArray.concat(secondArray);
+console.log(combineArray);
+
+const combineWithSpread = [...firstArray, ...secondArray];
+console.log(combineWithSpread);
+
+const combineWithSpreadAndAddElement = [...firstArray, 'a', ...secondArray, 'b'];
+console.log(combineWithSpreadAndAddElement);
+
+
+//cloning arrays using spread operator
+const cloneArray = [...firstArray];
+console.log(firstArray);
+console.log(cloneArray);

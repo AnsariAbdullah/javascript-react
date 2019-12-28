@@ -5,6 +5,6 @@
 - [x] this
 - [x] Arrow Function
 - [x] Destructuring
-- [ ] Spread
+- [x] Spread
 - [ ] Classes
 - [ ] Modules
