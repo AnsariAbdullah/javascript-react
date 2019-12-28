@@ -91,9 +91,9 @@ console.log(items);
 
 /*Object Destucturing*/
 const address = {
-	street: '',
-	city: '',
-	country: ''
+	street: 'Hakuna',
+	city: 'Matata',
+	country: 'Timon and Pumba'
 }
 
 // old way of extracting steert property from address object and storing it in const
@@ -102,7 +102,9 @@ const city = address.city;
 const country = address.country;*/
 
 //extracting steert property from address object and storing it in const using object destructuring
-const {street, city, country} = address;
+const {city, country} = address;
 
 // using alais instead of 'street'
 const {street: st} = address;
+
+console.log(st, city, country);
