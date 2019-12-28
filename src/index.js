@@ -80,3 +80,12 @@ const arrowFunctionBinding ={
 }
 
 arrowFunctionBinding.bindingFunction();
+
+
+/*Mapping through array*/
+
+const colors = ['red', 'blue', 'green'];
+
+const items = colors.map(key => `<li>${colors}</li>`);
+
+console.log(items);
