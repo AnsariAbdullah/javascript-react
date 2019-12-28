@@ -130,3 +130,16 @@ console.log(combineWithSpreadAndAddElement);
 const cloneArray = [...firstArray];
 console.log(firstArray);
 console.log(cloneArray);
+
+
+
+//OBJECTS
+
+const firstObject = {name: 'Anthony'};
+const secondObject = {job: 'Performer'};
+
+const combineObjects = {...firstObject,location: 'Mumbai', ...secondObject};
+console.log(combineObjects);
+
+const cloneObject = {...firstObject};
+console.log(cloneObject);
