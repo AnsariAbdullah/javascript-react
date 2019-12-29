@@ -157,16 +157,21 @@ class PersonClasss {
 }
 
 const personClass = new PersonClasss('Timon');
-personClass.classFunction;
+// personClass.classFunction;
 
 
 /*Inheritance*/
 
 class TeacherClass extends PersonClasss{
+	constructor(name, degree){
+		super(name);
+		this.degree = degree;
+	}
+
 	teach() {
 		console.log('teach');
 	}
 }
 
 const teacherClass = new TeacherClass('Kratos');
-teacherClass.classFunction;
+// teacherClass.classFunction;
