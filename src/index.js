@@ -152,9 +152,21 @@ class PersonClasss {
 		this.name = name;
 	}
 	classFunction(){
-		console.log('Gonna catch em all');
+		console.log('I am a class');
 	}
 }
 
-
 const personClass = new PersonClasss('Timon');
+personClass.classFunction;
+
+
+/*Inheritance*/
+
+class TeacherClass extends PersonClasss{
+	teach() {
+		console.log('teach');
+	}
+}
+
+const teacherClass = new TeacherClass('Kratos');
+teacherClass.classFunction;
