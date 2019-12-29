@@ -143,3 +143,18 @@ console.log(combineObjects);
 
 const cloneObject = {...firstObject};
 console.log(cloneObject);
+
+
+/*Classes*/
+
+class PersonClasss {
+	constructor(name){
+		this.name = name;
+	}
+	classFunction(){
+		console.log('Gonna catch em all');
+	}
+}
+
+
+const personClass = new PersonClasss('Timon');

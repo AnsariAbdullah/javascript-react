@@ -6,5 +6,5 @@
 - [x] Arrow Function
 - [x] Destructuring
 - [x] Spread
-- [ ] Classes
+- [x] Classes
 - [ ] Modules
