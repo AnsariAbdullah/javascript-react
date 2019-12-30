@@ -173,5 +173,5 @@ class TeacherClass extends PersonClasss{
 	}
 }
 
-const teacherClass = new TeacherClass('Kratos');
+const teacherClass = new TeacherClass('Kratos', 'GoW');
 // teacherClass.classFunction;
