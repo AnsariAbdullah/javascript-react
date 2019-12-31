@@ -1,3 +1,6 @@
+// importing module
+import {ModuleChildClass} from './ModuleChildClass'
+
 // *Variables*
 // var => function
 // let => block
@@ -179,27 +182,6 @@ const teacherClass = new TeacherClass('Kratos', 'GoW');
 
 /*Modules*/
 
-class ModuleParentClass{
-	constructor(fame){
-		this.fame = fame;
-	}
-	moduleClassFunction(){
-		console.log('I am parent module class')
-	}
-}
+const modulechildclass = new ModuleChildClass('Anthony', 'Dancing');
 
-const moduleparentclass = new ModuleParentClass('Jaggu Dada')
-
-class ModuleChildClass extends ModuleParentClass{
-	constructor(fame, shame){
-		super(fame);
-		this.shame = shame;
-	}
-	moduleChildFunction(){
-		console.log('I am module child class')
-	}
-}
-
-const modulechildclass = new ModuleChildClass()
-
-// modulechildclass.
+// modulechildclass.moduleClassFunction()
