@@ -1,5 +1,12 @@
 // importing module
-import {ModuleChildClass} from './ModuleChildClass'
+
+// Default export -> import ... from '';
+
+// Named export -> import {  } from '';
+
+import { ModuleChildClass, DoSomething } from './ModuleChildClass'			//used to import named export
+
+
 
 // *Variables*
 // var => function

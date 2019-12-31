@@ -1,4 +1,6 @@
-export class ModuleParentClass{
+export function justAnotherFunction(){}
+
+export default class ModuleParentClass{						//default export
 	constructor(fame){
 		this.fame = fame;
 	}
