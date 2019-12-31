@@ -175,3 +175,31 @@ class TeacherClass extends PersonClasss{
 
 const teacherClass = new TeacherClass('Kratos', 'GoW');
 // teacherClass.classFunction;
+
+
+/*Modules*/
+
+class ModuleParentClass{
+	constructor(fame){
+		this.fame = fame;
+	}
+	moduleClassFunction(){
+		console.log('I am parent module class')
+	}
+}
+
+const moduleparentclass = new ModuleParentClass('Jaggu Dada')
+
+class ModuleChildClass extends ModuleParentClass{
+	constructor(fame, shame){
+		super(fame);
+		this.shame = shame;
+	}
+	moduleChildFunction(){
+		console.log('I am module child class')
+	}
+}
+
+const modulechildclass = new ModuleChildClass()
+
+// modulechildclass.

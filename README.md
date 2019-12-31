@@ -7,4 +7,4 @@
 - [x] Destructuring
 - [x] Spread
 - [x] Classes
-- [ ] Modules
+- [x] Modules
